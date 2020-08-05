@@ -1,0 +1,480 @@
+/***************************top-banner-开始*************************/
+.top-banner{
+    background-color: #164fa6;
+    height: 100px;
+    position: relative;
+}
+
+.top-banner .close-banner {
+    position: absolute;
+    top: 3px;
+    right: 56px;
+    width: 15px;
+    height: 15px;
+    background: url("../images/index.png") -241px -145px;
+}
+
+.top-banner .close-banner:hover {
+    background-position: -256px -145px;
+}
+/***************************top-banner-结束*************************/
+/***************************nav-开始*************************/
+
+nav{
+    /* background-color: red; */
+    height: 35px;
+    line-height: 35px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+nav li{
+    float: left;
+    padding: 0 15px;
+}
+
+nav .down {
+    position: relative;
+    /* background-color: red; */
+    padding: 0 25px 0 10px;
+}
+
+nav .down i {
+    width: 19px;
+    height: 8px;
+    /* background-color: green; */
+    position: absolute;
+    top: 14px;
+    right: 7px;
+    overflow: hidden;
+}
+
+nav .down i s {
+    position: absolute;
+    font-size: 15px;
+    top: -20px;
+    color: #666;
+}
+
+nav .address {
+    position: relative;
+}
+
+nav .address .address-icon {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/index.png") -387px -181px;
+}
+
+nav .address s {
+    color: #bbbbbb;
+}
+
+nav .cart {
+    width: 15px;
+    position: absolute;
+    left: -8px;
+    top: 7px;
+}
+/***************************nav-结束*************************/
+
+/***************************search-开始*************************/
+.top-search{
+    height: 110px;
+    /* background-color: skyblue; */
+}
+
+.top-search .top-search-left{
+    height: 110px;
+    width: 400px;
+    /* background-color: rgb(188, 235, 135); */
+    float: left;
+}
+
+.top-search .top-search-left .main-logo {
+    width: 190px;
+    height: 90px;
+    background: url("../images/sn-logo.png") no-repeat center;
+
+}
+
+.top-search .top-search-left .sub-logo {
+    width: 160px;
+    height: 100px;
+    margin-top: 5px;
+    background: url("../images/sn-sub-logo.gif") no-repeat center;
+}
+
+.top-search .top-search-left .main-logo, 
+.top-search .top-search-left .sub-logo {
+    /* -webkit-background-size: contain; */
+    background-size: contain;
+    float: left;
+}
+
+.top-search .search-input {
+    float: left;
+    width: 538px;
+    height: 36px;
+    /* background-color: red; */
+    padding-top: 30px;
+}
+
+.top-search .search-input input {
+    padding-left: 5px;
+    float: left;
+    color: #cccccc;
+    width: 449px;
+    height: 32px;
+    border: 2px solid #F80;
+    border-right: 0;
+}
+
+.top-search .search-input button{
+    /* float: left; */
+    border: none;
+    /* display: inline-block; */
+    height: 36px;
+    width: 82px;
+    background-color: #F80;
+    color: #fff;
+    cursor: pointer;
+    font: 400 18px/36px "microsoft yahei";
+}
+
+.top-search .more-link{
+    float: left;
+    width: 520px;
+    height: 30px;
+    /* background-color: green; */
+}
+
+.top-search .more-link li{
+    float: left;
+    margin: 7px 10px 7px 0;
+    border-left: 1px solid #c0c0c0;
+    padding-left: 5px;
+}
+
+.top-search .more-link li:first-child{
+    border: none;
+}
+/***************************search-结束*************************/
+
+/***************************导航-开始*************************/
+.menu {
+    width: 100%;
+    height: 38px;
+    /* background-color: red; */
+}
+
+.menu .nav-menu {
+    width: 210px;
+    height: 38px;
+    float: left;
+    z-index: 1;
+    /* background-color: green; */
+}
+
+.menu .nav-menu .nav-menu-all a{
+    display: block;
+    width: 190px;
+    height: 38px;
+    background-color: #f90;
+    color: white;
+    font: 600 14px/38px "microsoft yahei";
+    padding-left: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.menu .nav-menu .nav-menu-all a:before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url("../images/index.png") 0 0;
+    position: absolute;
+    left: 11px;
+    top: 14px;
+}
+
+.menu .nav-menu .nav-menu-one {
+    width: 190px;
+    height: 440px;
+    background-color: #252221;
+}
+
+.menu .nav-menu .nav-menu-one .index-list li {
+    height: 31px;
+    padding: 0 10px 0 8px;
+    font: 400 13px/31px "microsoft yahei";
+    /* color: #666; */
+}
+
+.menu .nav-menu .nav-menu-one .index-list li a {
+    color: #fff;
+}
+
+.menu .nav-item li {
+    float: left;
+}
+
+.menu .nav-item li a {
+    display: inline-block;
+    height: 38px;
+    padding: 0 12px;
+    font: 600 16px/38px "microsoft yahei";
+    color: #333333;
+}
+
+.menu .nav-item li a:hover {
+    color: #f60;
+}
+/***************************导航-结束*************************/
+
+/***************************轮播图-开始*************************/
+.first-screen {
+    width: 100%;
+    height: 440px;
+    background-color: purple;
+    /*position: relative;*/
+}
+
+.first-screen .casual {
+    margin-left: 190px;
+    width: 830px;
+    height: 440px;
+    position: relative;
+}
+
+.first-screen .casual .casual-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+}
+
+.first-screen .casual .casual-bottom img {
+    width: 96%;
+}
+
+.first-screen .first-right {
+    width: 170px;
+    height: 436px;
+    background-color: #fff;
+    position: absolute;
+    left: 1020px;
+    top: 1px;
+}
+
+.first-screen .first-right .user-info {
+    position: relative;
+    width: 170px;
+    height: 155px;
+    padding: 11px 0 2px;
+    border-bottom: 1px solid #f2f2f2;
+    /* background-color: red; */
+}
+
+.first-screen .first-right .user-info .user-img {
+    text-align: center;
+}
+
+.first-screen .first-right .user-info .user-img a {
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    /* background-color: green; */
+    background: url("../images/index.png ") -91px -23px;
+}
+
+.first-screen .first-right .user-info .info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.first-screen .first-right .user-info .btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-screen .first-right .user-info .btn a.register {
+    display: inline-block;
+    width: 68px;
+    height: 20px;
+    border: 1px solid #F90;
+    color: #ffa114;
+    line-height: 20px;
+    text-align: center;
+}
+
+.first-screen .first-right .user-info .btn a.superhy {
+    display: inline-block;
+    width: 70px;
+    height: 22px;
+    background: url("../images/index.png") -295px -251px;
+}
+
+.first-screen .first-right .user-info .enter {
+    /* background-color: red; */
+    text-align: center;
+    margin: 10px 0;
+}
+
+.first-screen .first-right .user-info .enter a {
+    margin: 0 5px;
+}
+
+.first-screen .first-right .user-info .enter a em {
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.first-screen .first-right .user-info .enter a:first-child em {
+    background: url("../images/index.png") -111px 0;
+}
+
+.first-screen .first-right .user-info .enter a:last-child em {
+    background: url("../images/index.png") -88px 0;
+}
+
+/*头条*/
+.first-screen .first-right .toutiao {
+    width: 150px;
+    height: 97px;
+    margin: 11px 10px 12px;
+    /* background-color: red; */
+    line-height: 20px;
+}
+
+.first-screen .first-right .toutiao li {
+    height: 48px;
+}
+
+.first-screen .first-right .toutiao li i {
+    color: #f90;
+    margin-right: 5px;
+}
+
+/*快捷*/
+.first-screen .first-right .kuaijie {
+    width: 170px;
+    height: 145px;
+    overflow: hidden;
+    border-top: 1px solid #f2f2f2;
+}
+
+.first-screen .first-right .kuaijie ul li {
+    float: left;
+    width: 55px;
+    height: 72px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-screen .first-right .kuaijie ul li:nth-child(3), 
+.first-screen .first-right .kuaijie ul li:nth-child(6) {
+    border-right: 0;
+}
+
+.first-screen .first-right .kuaijie ul li i {
+    font-size: 40px;
+}
+/***************************轮播图-结束*************************/
+
+/***************************尾部-开始*************************/
+footer{
+    background-color: #f5f5f5;
+    border-top: 1px solid #e7e7e7;
+    padding: 20px 0;
+}
+
+footer .footer-top .footer-top-promise{
+    width: 100%;
+    /* background-color: red; */
+}
+
+footer .footer-top .footer-top-promise dl{
+    float: left;
+    width: 20%;
+    /* background-color: green; */
+}
+
+footer .footer-top .footer-top-promise dl dt{
+    float: left;
+    margin-right: 8px;
+    width: 48px;
+    height: 48px;
+}
+
+footer .footer-top .footer-top-promise dl dd p{
+    line-height: 24px;
+}
+
+footer .footer-top .footer-top-shopping{
+   padding: 10px 0;
+}
+
+footer .footer-top .footer-top-shopping dl{
+    float: left;
+    width: 200px;
+}
+
+footer .footer-top .footer-top-shopping dl dt{
+    font: 600 14px/40px "microsoft yahei";
+    color: #545454;
+}
+
+footer .footer-top .footer-top-shopping dl dd{
+    height: 20px;
+}
+
+footer .footer-top .footer-top-shopping .app-down{
+    /* background-color: red; */
+    width: 90px;
+    height: 180px;
+    float: left;
+}
+
+footer .footer-top .footer-top-shopping .app-down p{
+    height: 40px;
+    font: 600 14px/40px "microsoft yahei";
+    color: #545454;
+}
+
+footer .footer-bottom{
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .footer-bottom .url-list-links{
+    line-height: 25px;
+    height: 25px;
+}
+
+footer  .footer-bottom .url-list-links a{
+    margin: 0 8px;
+}
+
+footer  .footer-bottom .footer-bottom-copyright{
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+footer .footer-bottom-img a{
+    margin: 0 5px;
+}
+/***************************尾部-结束*************************/
